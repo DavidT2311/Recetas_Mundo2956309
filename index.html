@@ -4,19 +4,92 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="Styles/Styles.css">
-    <title>Pagina principal</title>
+    <title>Inicio</title>
 </head>
 <body>
-
+    
     <header>
-        <h1>Bienvenidos</h1>
+        <h1>Recetas de nuestro mundo</h1>
         <nav>
             <ul>
-                <li>Inicio</li>
-                <li>Paises</li>
-                <li>Quienes somos</li>
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="Recetas/Recetas.html">Recetas</a></li>
+                <li><a href="../Consejos/Consejos.html">Consejos</a></li>
+                <li><a href="../Nosotros/Nosotros">Nosotros</a></li>
             </ul>
         </nav>
     </header>
+
+    <div class="Container">
+        <main>
+            <h2 class="ContenidoDestacado">Contenido destacado</h2>
+            <section>
+                <div class="SeccionPrincipal1">
+                    <article class="Articulo1" onclick="location.href='Recetas/Colombia/Colombia.html';">
+                        <figure>
+                            <img src="Recetas/Colombia/Images/Bandeja_Paisa.jpg" alt="" width="320px" height="200px">
+                            <figcaption><p>Bandeja Paisa</p></figcaption>
+                        </figure>
+                    </article>
+
+                    <article class="Articulo2" onclick="location.href='Recetas/Colombia/Colombia.html';">
+                        <figure>
+                            <img src="Recetas/Colombia/Images/Sancocho.jpg" alt="" width="320px" height="200px">
+                            <figcaption><p>Sancocho</p></figcaption>
+                        </figure>
+                    </article>
+                </div>
+            </section>
+            <section>
+                <div class="SeccionPrincipal1">
+                    <article class="Articulo1" onclick="location.href='Recetas/Colombia/Colombia.html';">
+                        <figure>
+                            <img src="Recetas/Colombia/Images/Bandeja_Paisa.jpg" alt="" width="320px" height="200px">
+                            <figcaption><p>Bandeja Paisa</p></figcaption>
+                        </figure>
+                    </article>
+                    
+                    <article class="Articulo2" onclick="location.href='Recetas/Colombia/Colombia.html';">
+                        <figure>
+                            <img src="Recetas/Colombia/Images/Sancocho.jpg" alt="" width="320px" height="200px">
+                            <figcaption><p>Sancocho</p></figcaption>
+                        </figure>
+                    </article>
+                </div>
+            </section>
+        </main>
+
+        <div class="SeccionSecundaria">
+            <aside>
+                <h3>Paginas frecuentes</h3>
+                <article class="ArticuloInterno">
+                    <figure>
+                        <img src="Recetas/Colombia/Images/Bandera_Colombia.png" alt="" width="320px" height="200px">
+                        <figcaption><p>Colombia</p></figcaption>
+                    </figure>
+                </article>
+                
+                <article class="ArticuloInterno">
+                    <figure>
+                        <img src="Recetas/Estados_Unidos/Images/Bandera_EEUU.png" alt="" width="320px" height="200px">
+                        <figcaption><p>Estados Unidos</p></figcaption>
+                    </figure>
+                </article>
+            </aside>
+        </div>
+    </div>
+
+    <footer>
+        <p>©Derechos reservados a</p>
+            <ul>
+                <li class="li1"><p>Jojhan David Torres Tobon</p></li>
+                <li class="li1"><p>Jhoider Felipe Rua Giraldo</p></li>
+            </ul>
+            <ul>
+                <li class="li2"><p>Evelyn Dahiana Quirama Arango</p></li>
+                <li class="li2"><p>Nickol Moreno Correa</p></li>
+            </ul>
+    </footer>
+
 </body>
 </html>
