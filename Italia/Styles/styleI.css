@@ -2,7 +2,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    background-color: #b99470;
+    background-color: #f9ebc7;
 }
 
 header {
@@ -52,17 +52,13 @@ main{
     display: inline-flex;
     width: 70%;
 }
-main h1 {
-    text-align: center;
-    color: rgb(49, 49, 49);
-}
 section{
     margin: 10px;
     text-align: center;
     padding: 10px;
 }
 section h2{
-    color:  #783d19;
+    color:  #c4661f;
 }
 section p{
     margin-top: 20px;
@@ -70,10 +66,10 @@ section p{
 figure img{
     width: 250px ;
     height: 250px ;
-    border: 2px solid  #b99470;
+    border: 2px solid  #f9ebc7;
 }
 aside{
-    background-color:   #b99470;
+    background-color:   #f9ebc7;
     width: 29.7%;
     height: 143vh;
     color: azure;
@@ -90,7 +86,7 @@ aside p{
 aside article img{
     width: 150px ;
     height: 150px ;
-    border: 2px solid #783d19;
+    border: 2px solid #c4661f;;
     display: inline-flex;
     width: 40%;
     margin-left: 50px;
@@ -104,10 +100,10 @@ footer{
     padding: 20px;
     text-align: center;
     width: 100%;
-    z-index: 1;  
+    z-index: 1;
 }
 main section article{
-    border: 2px solid   #783d19;
+    border: 2px solid   #c4661f;;
     margin-top: 0;
     margin-bottom: 10px;
     margin-left: 150px;
@@ -154,6 +150,4 @@ main h3 section article p{
     color:  #f1e8aa;
 }
 
-.h1 {
-    width: 100vh;
-}
+
