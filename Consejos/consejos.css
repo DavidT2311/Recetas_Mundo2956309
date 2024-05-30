@@ -46,4 +46,13 @@ header nav ul li a:hover {
     font-size: 27px;
     color: #f1e8aa;
     text-shadow: #f1e8aa 1px 0 10px;
-    
+}
+
+footer{
+    background-color:   #A9B388;
+    color: #FEFAE0;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+    z-index: 1; 
+}
