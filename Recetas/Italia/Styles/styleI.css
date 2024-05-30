@@ -1,0 +1,153 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: #f9ebc7;
+}
+
+header {
+    background-color: #A9B388;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 35px;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: rgb(49, 49, 49);
+}
+
+header nav ul {
+    padding: 0;
+    margin: 0;
+    padding-bottom: 11px;
+    padding-top: 10px;
+}
+
+header nav ul li {
+    list-style: none;
+    display: inline-block;
+    padding-left: 13px;
+    padding-right: 13px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: 600;
+    color: #FEFAE0;
+    transition: ease-in .2s; 
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+    font-size: 27px;
+    color: #f1e8aa;
+    text-shadow: #f1e8aa 1px 0 10px;
+}
+main{
+    margin-left: 0px;
+    display: inline-flex;
+    width: 70%;
+}
+section{
+    margin: 10px;
+    text-align: center;
+    padding: 10px;
+}
+section h2{
+    color:  #c4661f;
+}
+section p{
+    margin-top: 20px;
+}
+figure img{
+    width: 250px ;
+    height: 250px ;
+    border: 2px solid  #f9ebc7;
+}
+aside{
+    background-color:   #f9ebc7;
+    width: 29.7%;
+    height: 143vh;
+    color: azure;
+    padding: 30px;
+    box-sizing: border-box;
+    display: inline-flex;
+}
+aside h3{
+    color:white;
+}
+aside p{
+    color:black;
+}
+aside article img{
+    width: 150px ;
+    height: 150px ;
+    border: 2px solid #c4661f;;
+    display: inline-flex;
+    width: 40%;
+    margin-left: 50px;
+}
+aside ul li a:hover{
+    color: #f1e8aa;
+}
+footer{
+    background-color:   #A9B388;
+    color: #FEFAE0;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+    z-index: 1;
+}
+main section article{
+    border: 2px solid   #c4661f;;
+    margin-top: 0;
+    margin-bottom: 10px;
+    margin-left: 150px;
+    margin-right: 150px;
+    background-color:   #FEFAE0;
+}
+main h3 section article p{
+  text-align: center;
+  padding-left: 10px;
+}
+.content {
+    display: flex;
+}
+
+.contenedor1 {
+    display: inline-flex;
+    width: 40%;
+    margin-left: 50px;
+}
+
+.contenedor2 {
+    display: inline-flex;
+    width: 30%;
+    margin-left: 70px;
+}
+.content2 {
+    display: flex;
+}
+.contenedor3 {
+    display: inline-flex;
+    width: 40%;
+    margin-left: 50px;
+}
+
+.contenedor4 {
+    display: inline-flex;
+    width: 30%;
+    margin-left: 70px;
+}
+.contenedor4 p a:hover {
+    color:  #f1e8aa;
+}
+.contenedor2 p a:hover {
+    color:  #f1e8aa;
+}
+
+
