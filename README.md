@@ -1,7 +1,7 @@
-Jojhan David Torres Tobon
+Ficha: 2956309
 
-Nickol Moreno Correa
-
-Jhoider Felipe Rua Giraldo
-
-Evelyn Dahiana Quirama Arango
+Integrantes:
+- Jojhan David Torres Tobon
+- Nickol Moreno Correa
+- Jhoider Felipe Rua Giraldo
+- Evelyn Dahiana Quirama Arango
